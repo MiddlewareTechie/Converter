@@ -6,14 +6,14 @@ Source payload:
 {
     "row": [
         {
-            "CustomerID": "ALFKI",
-            "CompanyName": "Alfreds Futterkiste",
-            "Country": "Germany"
+            "CustomerID": "NEWCID1",
+            "CompanyName": "NEWCOMPANY1",
+            "Country": "France"
         },
         {
-            "CustomerID": "BLAUS",
-            "CompanyName": "Blauer See Delikatessen",
-            "Country": "Germany"
+            "CustomerID": "NEWCID2",
+            "CompanyName": "NEWCOMPANY1",
+            "Country": "Italy"
         }
     ]
 }
@@ -22,13 +22,13 @@ Target payload:
 <?xml version='1.0' encoding='UTF-8'?>
 <ns0:MT_Customer xmlns:ns0="http://cpi.sap.com/demo">
     <row>
-        <CustomerID>ALFKI</CustomerID>
-        <CompanyName>Alfreds Futterkiste</CompanyName>
-        <Country>Germany</Country>
+        <CustomerID>NEWCID1</CustomerID>
+        <CompanyName>NEWCOMPANY1</CompanyName>
+        <Country>France</Country>
     </row>
     <row>
-        <CustomerID>BLAUS</CustomerID>
-        <CompanyName>Blauer See Delikatessen</CompanyName>
-        <Country>Germany</Country>
+        <CustomerID>NEWCID2</CustomerID>
+        <CompanyName>NEWCOMPANY1</CompanyName>
+        <Country>Italy</Country>
     </row>
 </ns0:MT_Customer>
