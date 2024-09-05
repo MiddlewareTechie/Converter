@@ -1,0 +1,27 @@
+Input CSV:
+CustomerID,CompanyName,Country
+Rutuja,ABC,Germany
+Sakshi,XYZ,India
+Rutik,PQR,USA
+.........................................................................
+Output XML:
+<?xml version='1.0' encoding='UTF-8'?>
+<MT_Customer>
+  <data>
+    <row>
+      <CustomerID>Rutuja</CustomerID>
+      <CompanyName>ABC</CompanyName>
+      <Country>Germany</Country>
+    </row>
+    <row>
+      <CustomerID>Sakshi</CustomerID>
+      <CompanyName>XYZ</CompanyName>
+      <Country>India</Country>
+    </row>
+    <row>
+      <CustomerID>Rutik</CustomerID>
+      <CompanyName>PQR</CompanyName>
+      <Country>USA</Country>
+    </row>
+  </data>
+</MT_Customer>
