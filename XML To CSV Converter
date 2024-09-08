@@ -1,0 +1,41 @@
+XML to CSV Converter
+
+Input XML:
+<?xml version='1.0' encoding='UTF-8'?>
+<MT_Client>
+	<info>
+		<entry>
+			<ClientID>A123</ClientID>
+			<OrganizationName>BetaCorp</OrganizationName>
+			<Nation>USA</Nation>
+		</entry>
+		<entry>
+			<ClientID>B456</ClientID>
+			<OrganizationName>GammaInc</OrganizationName>
+			<Nation>Canada</Nation>
+		</entry>
+		<entry>
+			<ClientID>C789</ClientID>
+			<OrganizationName>DeltaLLC</OrganizationName>
+			<Nation>UK</Nation>
+		</entry>
+	</info>
+</MT_Client>
+..........................................................................................
+
+ Namespace:
+<ns0:MT_Client xmlns:ns0="http://cpi.sap.com/demo">
+</ns0:MT_Client>
+..........................................................................................
+
+parent node:
+<parent>
+	<FirstField>XYZ</FirstField>
+	<SecondField>123</SecondField>
+</parent>
+<parent>
+	<FirstField>ABC</FirstField>
+	<SecondField>456</SecondField>
+</parent>
+
+
